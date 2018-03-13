@@ -1,0 +1,180 @@
+{
+    "name": "ACP",
+    "version": "1.0.0",
+    "description": "Alpha manifest for ACP documenation",
+    "author": "David Benge",
+    "view_type": "mdbook",
+    "meta_keywords":"Adobe Cloud Platform",
+    "meta_description":"Documentation related to APIs exposed by the Adobe Cloud Platform. This includes API Specifications, technical documentation, tutorials, and end-user guides",
+    "publish_date":"3-13-2018",
+    "show_edit_github_banner":false,
+    "show_edit_svn_banner":false,
+    "base_path":"http://localhost:9090",
+    "pages":[
+        {
+            "title":"Bulk Ingestion API",
+            "path":"acp/documentation/api-specification/markdown/apis/foundation/bulk-ingest-api/markdown/overview.md",
+            "keywords":"Bulk,Ingest,API",
+            "description":"bulk ingest api docs",
+            "publish_date":"2-27-2018",
+            "show_edit_github_banner":false,
+            "pages":[
+                {
+                    "keywords":"",
+                    "description":"",
+                    "publish_date":"",
+                    "title":"Security",
+                    "path":"acp/documentation/api-specification/markdown/apis/foundation/bulk-ingest-api/markdown/security.md",
+                    "show_edit_github_banner":false
+                },
+                {
+                    "keywords":"",
+                    "description":"",
+                    "publish_date":"",
+                    "title":"Overview",
+                    "path":"acp/documentation/api-specification/markdown/apis/foundation/bulk-ingest-api/markdown/overview.md",
+                    "show_edit_github_banner":false
+                },
+                {
+                    "keywords":"",
+                    "description":"",
+                    "publish_date":"",
+                    "title":"Operations",
+                    "path":"acp/documentation/api-specification/markdown/apis/foundation/bulk-ingest-api/markdown/operations",
+                    "show_edit_github_banner":false,
+                    "pages": [
+                        {
+                            "keywords":"",
+                            "description":"",
+                            "publish_date":"",
+                            "title":"Create Batch",
+                            "path":"acp/documentation/api-specification/markdown/apis/foundation/bulk-ingest-api/markdown/operations/createBatch.md",
+                            "show_edit_github_banner":false
+                        },
+                        {
+                            "keywords":"",
+                            "description":"",
+                            "publish_date":"",
+                            "title":"Promote Batch",
+                            "path":"acp/documentation/api-specification/markdown/apis/foundation/bulk-ingest-api/markdown/operations/promoteBatch.md",
+                            "show_edit_github_banner":false
+                        },
+                        {
+                            "keywords":"",
+                            "description":"",
+                            "publish_date":"",
+                            "title":"Upload File",
+                            "path":"acp/documentation/api-specification/markdown/apis/foundation/bulk-ingest-api/markdown/operations/uploadFile.md",
+                            "show_edit_github_banner":false
+                        },
+                        {
+                            "keywords":"",
+                            "description":"",
+                            "publish_date":"",
+                            "title":"Upload File Part",
+                            "path":"acp/documentation/api-specification/markdown/apis/foundation/bulk-ingest-api/markdown/operations/uploadFilePart.md",
+                            "show_edit_github_banner":false
+                        },
+                        {
+                            "keywords":"",
+                            "description":"",
+                            "publish_date":"",
+                            "title":"Complete File Upload",
+                            "path":"acp/documentation/api-specification/markdown/apis/foundation/bulk-ingest-api/markdown/operations/completeFileUpload.md",
+                            "show_edit_github_banner":false
+                        },
+                        {
+                            "keywords":"",
+                            "description":"",
+                            "publish_date":"",
+                            "title":"Get Preview",
+                            "path":"acp/documentation/api-specification/markdown/apis/foundation/bulk-ingest-api/markdown/operations/getPreview.md",
+                            "show_edit_github_banner":false
+                        }
+                    ]
+                },
+                {
+                    "keywords":"",
+                    "description":"",
+                    "publish_date":"",
+                    "title":"Definitions",
+                    "path":"acp/documentation/api-specification/markdown/apis/foundation/bulk-ingest-api/markdown/definitions",
+                    "show_edit_github_banner":false,
+                    "pages": [
+                        {
+                            "keywords":"",
+                            "description":"",
+                            "publish_date":"",
+                            "title":"Batch",
+                            "path":"acp/documentation/api-specification/markdown/apis/foundation/bulk-ingest-api/markdown/definitions/Batch.md",
+                            "show_edit_github_banner":false
+                        },
+                        {
+                            "keywords":"",
+                            "description":"",
+                            "publish_date":"",
+                            "title":"Column",
+                            "path":"acp/documentation/api-specification/markdown/apis/foundation/bulk-ingest-api/markdown/definitions/Column.md",
+                            "show_edit_github_banner":false
+                        },{
+                            "keywords":"",
+                            "description":"",
+                            "publish_date":"",
+                            "title":"File",
+                            "path":"acp/documentation/api-specification/markdown/apis/foundation/bulk-ingest-api/markdown/definitions/File.md",
+                            "show_edit_github_banner":false
+                        },
+                        {
+                            "keywords":"",
+                            "description":"",
+                            "publish_date":"",
+                            "title":"Format Params",
+                            "path":"acp/documentation/api-specification/markdown/apis/foundation/bulk-ingest-api/markdown/definitions/FormatParams.md",
+                            "show_edit_github_banner":false
+                        },{
+                            "keywords":"",
+                            "description":"",
+                            "publish_date":"",
+                            "title":"Ingest Batch",
+                            "path":"acp/documentation/api-specification/markdown/apis/foundation/bulk-ingest-api/markdown/definitions/IngestBatch.md",
+                            "show_edit_github_banner":false
+                        },
+                        {
+                            "keywords":"",
+                            "description":"",
+                            "publish_date":"",
+                            "title":"Preview",
+                            "path":"acp/documentation/api-specification/markdown/apis/foundation/bulk-ingest-api/markdown/definitions/Preview.md",
+                            "show_edit_github_banner":false
+                        },{
+                            "keywords":"",
+                            "description":"",
+                            "publish_date":"",
+                            "title":"Preview Response",
+                            "path":"acp/documentation/api-specification/markdown/apis/foundation/bulk-ingest-api/markdown/definitions/PreviewResponse.md",
+                            "show_edit_github_banner":false
+                        },
+                        {
+                            "keywords":"",
+                            "description":"",
+                            "publish_date":"",
+                            "title":"Errors",
+                            "path":"acp/documentation/api-specification/markdown/apis/foundation/bulk-ingest-api/markdown/definitions/errors.md",
+                            "show_edit_github_banner":false
+                        },
+                        {
+                            "keywords":"",
+                            "description":"",
+                            "publish_date":"",
+                            "title":"Related Objects",
+                            "path":"acp/documentation/api-specification/markdown/apis/foundation/bulk-ingest-api/markdown/definitions/relatedObjects.md",
+                            "show_edit_github_banner":false
+                        }
+
+                    ]
+                }
+            ]
+        }
+    ]
+}
+
